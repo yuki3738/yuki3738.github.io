@@ -4,4 +4,11 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 <!-- layout: home -->
 ---
-<p>Under Construction</p>
+<dl>
+  <dt>Name</dt>
+  <dd>Yuki Minamiya</dd>
+  <dt>Skills</dt>
+  <dd>Ruby, Ruby on Rails, MySQL, AWS</dd>
+  <dt>Like</dt>
+  <dd>Books,Coffee,Music and Beer</dd>
+</dl>
