@@ -27,4 +27,4 @@ bundle update
 - **レイアウト**: `_layouts/default.html` がベースレイアウト。GitHub Pages の View on GitHub ボタンやフッターの一部をコメントアウトでカスタマイズ
 - **フッター**: `_includes/footer.html` にSNSアイコンリンク集（GitHub, Facebook, Twitter, Instagram, はてなブログ）
 - **スタイル**: `assets/css/style.scss` でテーマをインポートし、SNSアイコンのスタイルを追加
-- **ブランチ**: `master`（GitHub Pages のデプロイブランチ）
+- **ブランチ**: `main`（GitHub Pages のデプロイブランチ）
