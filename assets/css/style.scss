@@ -431,7 +431,14 @@ body {
     border-radius: 6px;
   }
 }
-.link-card--blog { background: var(--coral); }
+.link-card--blog {
+  background: #fff;
+  color: #333;
+
+  img {
+    filter: none;
+  }
+}
 
 /* === Footer === */
 .footer {
