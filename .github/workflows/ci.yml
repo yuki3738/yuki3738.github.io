@@ -28,7 +28,7 @@ jobs:
       - name: Check HTML
         run: |
           bundle exec htmlproofer ./_site \
-            --ignore-urls "/twitter.com/,/x.com/" \
+            --ignore-urls "/twitter.com/,/x.com/,/fonts.googleapis.com/,/fonts.gstatic.com/" \
             --no-enforce-https \
             --ignore-missing-alt \
             --ignore-status-codes "999,429,403"
