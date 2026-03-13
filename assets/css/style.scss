@@ -423,6 +423,14 @@ body {
 .link-card--instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
 .link-card--eight { background: #0060FF; }
 .link-card--youtrust { background: #1DA1B5; }
+.link-card--strava {
+  background: #FC4C02;
+
+  img {
+    filter: none;
+    border-radius: 6px;
+  }
+}
 .link-card--blog { background: var(--coral); }
 
 /* === Footer === */
