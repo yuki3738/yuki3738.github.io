@@ -209,6 +209,68 @@ body {
   letter-spacing: 0.1em;
 }
 
+.hero__sns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  max-width: calc(40px * 5 + 0.6rem * 4);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero__sns-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    opacity: 0.85;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+  }
+}
+
+.hero__sns-icon--github { background: #333; }
+.hero__sns-icon--facebook { background: #1877F2; }
+.hero__sns-icon--twitter { background: #1DA1F2; }
+.hero__sns-icon--instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
+.hero__sns-icon--linkedin {
+  background: #0A66C2;
+
+  img {
+    filter: none;
+    border-radius: 4px;
+  }
+}
+.hero__sns-icon--eight { background: #0060FF; }
+.hero__sns-icon--youtrust { background: #1DA1B5; }
+.hero__sns-icon--strava {
+  background: #FC4C02;
+
+  img {
+    filter: none;
+    border-radius: 4px;
+  }
+}
+.hero__sns-icon--blog {
+  background: rgba(255, 255, 255, 0.2);
+
+  img {
+    filter: none;
+  }
+}
+
 .hero__scroll {
   position: absolute;
   bottom: 2rem;
@@ -485,6 +547,10 @@ body {
 
   .hobbies {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero__sns {
+    justify-content: center;
   }
 
   .links__grid {
